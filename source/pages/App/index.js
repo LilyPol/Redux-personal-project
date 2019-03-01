@@ -2,6 +2,8 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
 
+import Scheduler from '../../components/Scheduler';
+
 @hot(module)
 export default class App extends Component {
     render () {
@@ -18,7 +20,7 @@ export default class App extends Component {
                     fontWeight:      '600',
                     textAlign:       'center',
                 } }>
-                Персональный проект: стартовая точка
+                <Scheduler />
             </h1>
         );
     }

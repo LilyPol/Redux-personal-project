@@ -1,5 +1,6 @@
 // Core
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 // Instruments
 import Styles from './styles.m.css';
